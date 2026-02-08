@@ -1,0 +1,56 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #111827;
+  color: #f9fafb;
+}
+
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0 0 8px;
+}
+
+.hint {
+  margin: 0 0 12px;
+  color: #cbd5e1;
+}
+
+.toolbar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.tool {
+  border: 2px solid transparent;
+  border-radius: 8px;
+  padding: 8px 10px;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+}
+
+.tool.active {
+  border-color: #f8fafc;
+  box-shadow: 0 0 0 2px #334155;
+}
+
+canvas {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border: 2px solid #475569;
+  border-radius: 8px;
+  background: #60a5fa;
+  image-rendering: pixelated;
+}

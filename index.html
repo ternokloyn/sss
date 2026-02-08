@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Миникрафт в браузере</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <h1>Миникрафт</h1>
+      <p class="hint">
+        ЛКМ — ломать блоки, ПКМ — ставить блоки, 1-5 — выбрать материал.
+      </p>
+      <div class="toolbar" id="toolbar"></div>
+      <canvas id="world" width="800" height="480" aria-label="Игровой мир"></canvas>
+    </main>
+
+    <script src="game.js"></script>
+  </body>
+</html>
